@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  background-color: rgb(60, 47, 54);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tasks{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
+}
+
+.task{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(246, 252, 252);
+  height: 150px;
+  width: 500px;
+  margin: 0;
+}
+hr{
+  height: 5px;
+  width: 100%;
+  background-color: rgb(247, 245, 245);
+}
+.btn-add{
+  position: absolute;
+  top: 3vh;
+  left: 73%;
+}
+
+.btn-sub{
+ margin-top: 10px;
+}
+
+.btn-man{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-man1{
+  width: 70px;
+  height: 35px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-man2{
+  width: 70px;
+  height: 35px;
+  margin: 5px;
+  text-align: center;
+}
+
+.link{
+  color: rgb(247, 240, 240);
+  list-style: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.add{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 35%;
+}
+
+.edit{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 35%;
+}
